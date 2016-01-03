@@ -29,6 +29,10 @@ sudo npm install -g yo
 
 # Generators
 sudo npm install -g generator-angular
+bower install angular-route -S
+bower install angular-ui-router -S
+npm install json-server -g
+bower install angular-resource -S
 
 # Used modules for this work
 install grunt locally:
@@ -46,13 +50,6 @@ npm install grunt-filerev --save-dev
 npm install grunt-usemin --save-dev
 npm install grunt-contrib-watch --save-dev
 npm install grunt-contrib-connect --save-dev
-
-bower install angular-route -S
-bower install angular-ui-router -S
-
-npm install json-server -g
-
-bower install angular-resource -S
 ```
 
 ## Intro to AngularJS
