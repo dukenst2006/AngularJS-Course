@@ -6,7 +6,6 @@ provided by coursera / Link to course: https://www.coursera.org/learn/angular-js
 ### NodeJS
 
 # To compile and install native addons from npm you may also need to install build tools:
-sudo apt-get install -y build-essential
 ```
 ### Install node module globally
 ```shell
@@ -30,6 +29,30 @@ sudo npm install -g yo
 
 # Generators
 sudo npm install -g generator-angular
+
+# Used modules for this work
+install grunt locally:
+npm install grunt --save-dev
+npm install grunt-contrib-jshint --save-dev
+npm install jshint-stylish --save-dev
+npm install time-grunt --save-dev
+npm install jit-grunt --save-dev
+npm install grunt-contrib-copy --save-dev
+npm install grunt-contrib-clean --save-dev
+npm install grunt-contrib-concat --save-dev
+npm install grunt-contrib-cssmin --save-dev
+npm install grunt-contrib-uglify --save-dev
+npm install grunt-filerev --save-dev
+npm install grunt-usemin --save-dev
+npm install grunt-contrib-watch --save-dev
+npm install grunt-contrib-connect --save-dev
+
+bower install angular-route -S
+bower install angular-ui-router -S
+
+npm install json-server -g
+
+bower install angular-resource -S
 ```
 
 ## Intro to AngularJS
